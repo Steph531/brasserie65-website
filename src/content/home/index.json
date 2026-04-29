@@ -1,161 +1,216 @@
 {
-  "fr": {
-    "meta_title": "Cuisine du marché à Paris",
-    "meta_description": "Restaurant gastronomique à Paris. Cuisine française de saison, produits locaux, cave à vins sélectionnée.",
-    "strip_open_label": "Ouvert",
-    "strip_open_value": "Mar – Sam",
-    "strip_service_label": "Services",
-    "strip_service_value": "Midi & Soir",
-    "strip_book_label": "Réservation",
-    "strip_book_value": "Recommandée",
-    "strip_price_label": "Prix moyen",
-    "strip_price_value": "45 €",
-    "arguments": [
-      {
-        "icon": "sprout",
-        "title": "Produits de saison",
-        "description": "Nous travaillons directement avec des producteurs locaux pour vous offrir le meilleur de chaque saison."
-      },
-      {
-        "icon": "chef-hat",
-        "title": "Cuisine sincère",
-        "description": "Pas de chichis, des saveurs vraies. Chaque plat est préparé avec soin et respect du produit."
-      },
-      {
-        "icon": "users",
-        "title": "Accueil chaleureux",
-        "description": "Notre équipe est là pour vous faire passer un moment mémorable, dans une atmosphère détendue."
-      }
-    ],
-    "menu_preview_starters": [
-      { "name": "Velouté de butternut, noisettes torréfiées", "price": "12 €" },
-      { "name": "Tartare de bœuf façon maison", "price": "16 €" },
-      { "name": "Burrata, tomates anciennes, basilic", "price": "14 €" }
-    ],
-    "menu_preview_mains": [
-      { "name": "Filet de dorade, légumes rôtis, sauce vierge", "price": "26 €" },
-      { "name": "Magret de canard, polenta crémeuse, jus corsé", "price": "28 €" },
-      { "name": "Risotto aux champignons des bois, parmesan", "price": "22 €" }
-    ],
-    "menu_preview_desserts": [
-      { "name": "Tarte fine aux pommes, crème fraîche", "price": "9 €" },
-      { "name": "Fondant chocolat, glace vanille maison", "price": "10 €" }
-    ],
-    "menu_preview_formulas": [
-      { "name": "Menu du Midi (Entrée + Plat)", "price": "28 €" },
-      { "name": "Menu Découverte (E + P + D)", "price": "38 €" }
-    ],
-    "gallery_images": [
-      { "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80&auto=format&fit=crop", "alt": "Salle du restaurant", "variant": "wide" },
-      { "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80&auto=format&fit=crop", "alt": "Un plat du chef", "variant": "tall" },
-      { "src": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&q=80&auto=format&fit=crop", "alt": "Détail de table", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80&auto=format&fit=crop", "alt": "Cave à vins", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80&auto=format&fit=crop", "alt": "En cuisine", "variant": "tall" },
-      { "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop", "alt": "Terrasse", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80&auto=format&fit=crop", "alt": "Dessert signature", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1200&q=80&auto=format&fit=crop", "alt": "Ambiance salle", "variant": "wide" }
-    ],
-    "reviews": [
-      {
-        "author": "Marie L.",
-        "date": "Octobre 2024",
-        "rating": 5,
-        "comment": "Une adresse qui mérite vraiment le détour. La cuisine est créative sans être prétentieuse, les produits sont d'une fraîcheur impeccable. Service aux petits soins."
-      },
-      {
-        "author": "Paul D.",
-        "date": "Septembre 2024",
-        "rating": 5,
-        "comment": "Le meilleur tartare que j'ai mangé à Paris. Cave à vins remarquable, l'équipe est de bon conseil. On reviendra sans hésiter."
-      },
-      {
-        "author": "Camille R.",
-        "date": "Août 2024",
-        "rating": 4,
-        "comment": "Belle découverte ! Le menu du midi est un excellent rapport qualité-prix. Cadre élégant et détendu, parfait pour un déjeuner d'affaires."
-      }
-    ]
-  },
-  "en": {
-    "meta_title": "Market cuisine in Paris",
-    "meta_description": "Fine dining restaurant in Paris. Seasonal French cuisine, local produce, curated wine cellar.",
-    "strip_open_label": "Open",
-    "strip_open_value": "Tue – Sat",
-    "strip_service_label": "Service",
-    "strip_service_value": "Lunch & Dinner",
-    "strip_book_label": "Reservation",
-    "strip_book_value": "Recommended",
-    "strip_price_label": "Avg. price",
-    "strip_price_value": "€45",
-    "arguments": [
-      {
-        "icon": "sprout",
-        "title": "Seasonal produce",
-        "description": "We work directly with local producers to bring you the best of each season."
-      },
-      {
-        "icon": "chef-hat",
-        "title": "Honest cuisine",
-        "description": "No fuss, real flavours. Each dish is prepared with care and respect for the ingredient."
-      },
-      {
-        "icon": "users",
-        "title": "Warm welcome",
-        "description": "Our team is here to make your experience memorable, in a relaxed atmosphere."
-      },
-      {
-        "icon": "wine",
-        "title": "Wine cellar",
-        "description": "A selection of natural wines from passionate producers, to accompany every meal."
-      }
-    ],
-    "menu_preview_starters": [
-      { "name": "Butternut squash velouté, toasted hazelnuts", "price": "€12" },
-      { "name": "Beef tartare, house style", "price": "€16" },
-      { "name": "Burrata, heirloom tomatoes, basil", "price": "€14" }
-    ],
-    "menu_preview_mains": [
-      { "name": "Sea bream fillet, roasted vegetables, sauce vierge", "price": "€26" },
-      { "name": "Duck breast, creamy polenta, rich jus", "price": "€28" },
-      { "name": "Wild mushroom risotto, Parmesan", "price": "€22" }
-    ],
-    "menu_preview_desserts": [
-      { "name": "Thin apple tart, crème fraîche", "price": "€9" },
-      { "name": "Chocolate fondant, house vanilla ice cream", "price": "€10" }
-    ],
-    "menu_preview_formulas": [
-      { "name": "Lunch menu (Starter + Main)", "price": "€28" },
-      { "name": "Discovery menu (S + M + D)", "price": "€38" }
-    ],
-    "gallery_images": [
-      { "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80&auto=format&fit=crop", "alt": "Restaurant dining room", "variant": "wide" },
-      { "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80&auto=format&fit=crop", "alt": "A chef's dish", "variant": "tall" },
-      { "src": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&q=80&auto=format&fit=crop", "alt": "Table detail", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80&auto=format&fit=crop", "alt": "Wine cellar", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80&auto=format&fit=crop", "alt": "In the kitchen", "variant": "tall" },
-      { "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop", "alt": "Terrace", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80&auto=format&fit=crop", "alt": "Signature dessert", "variant": "normal" },
-      { "src": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1200&q=80&auto=format&fit=crop", "alt": "Dining room ambiance", "variant": "wide" }
-    ],
-    "reviews": [
-      {
-        "author": "Marie L.",
-        "date": "October 2024",
-        "rating": 5,
-        "comment": "An address that truly deserves the trip. The cuisine is creative without being pretentious, the produce is impeccably fresh. Attentive service."
-      },
-      {
-        "author": "Paul D.",
-        "date": "September 2024",
-        "rating": 5,
-        "comment": "The best tartare I've had in Paris. Remarkable wine list, the team gives great recommendations. We'll be back without hesitation."
-      },
-      {
-        "author": "Camille R.",
-        "date": "August 2024",
-        "rating": 4,
-        "comment": "A great find! The lunch menu is excellent value. Elegant and relaxed setting, perfect for a business lunch."
-      }
-    ]
-  }
+    "fr": {
+        "meta_title": "Brasserie 65 Rooftop — Brasserie française à Nice",
+        "meta_description": "Brasserie 65 Rooftop à Nice – Cuisine maison généreuse, terrasse panoramique, plats du jour. 65 Voie Romaine, 06000 Nice. Tél. 04 93 27 10 46.",
+        "strip_open_label": "Ouvert",
+        "strip_open_value": "Lun – Ven",
+        "strip_service_label": "Services",
+        "strip_service_value": "Midi uniquement",
+        "strip_book_label": "Réservation",
+        "strip_book_value": "Recommandée",
+        "strip_price_label": "Prix moyen",
+        "strip_price_value": "15 €",
+        "arguments": [
+            {
+                "icon": "chef-hat",
+                "title": "Tout fait maison",
+                "description": "Plats du jour, suggestions du chef et desserts élaborés par le chef pâtissier maison. Ici, rien ne vient d'un camion frigorifique."
+            },
+            {
+                "icon": "sun",
+                "title": "Terrasse rooftop panoramique",
+                "description": "Profitez d'un déjeuner en hauteur avec une vue dégagée sur les collines niçoises. La terrasse chauffée/ventilée accueille même les saisons capricieuses."
+            },
+            {
+                "icon": "users",
+                "title": "Groupes & événements privés",
+                "description": "La brasserie peut être privatisée le soir et les weekends pour vos célébrations, repas d'équipe et réceptions. Enfants et familles les bienvenus."
+            }
+        ],
+        "menu_preview_starters": [
+            { "name": "Camembert à la Truffe", "price": "13 €" },
+            { "name": "Salade 65 (Poulet, Œuf, Sauce César)", "price": "14 €" },
+            { "name": "Carpaccio de Bœuf, Champignon & Parmesan", "price": "14 €" }
+        ],
+        "menu_preview_mains": [
+            { "name": "Tartare de Bœuf Traditionnel 180g", "price": "13 €" },
+            { "name": "Dos de Cabillaud, Fondue de Poireaux", "price": "16 €" },
+            { "name": "Bavette Sauce Bordelaise", "price": "17 €" }
+        ],
+        "menu_preview_desserts": [
+            { "name": "Tarte à la Crème Brûlée", "price": "5 €" },
+            { "name": "Tiramisu Maison", "price": "5 €" },
+            { "name": "Mousse au Chocolat", "price": "5 €" }
+        ],
+        "menu_preview_formulas": [],
+        "gallery_images": [
+            {
+                "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80&auto=format&fit=crop",
+                "alt": "Salle de la Brasserie 65 Rooftop – Nice",
+                "variant": "wide"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80&auto=format&fit=crop",
+                "alt": "Plat du chef – Brasserie 65 Rooftop Nice",
+                "variant": "tall"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&q=80&auto=format&fit=crop",
+                "alt": "Détail de table – Brasserie 65 Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80&auto=format&fit=crop",
+                "alt": "Sélection de boissons – Brasserie 65 Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80&auto=format&fit=crop",
+                "alt": "En cuisine – Brasserie 65 Rooftop Nice",
+                "variant": "tall"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop",
+                "alt": "Terrasse rooftop panoramique – Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80&auto=format&fit=crop",
+                "alt": "Dessert du chef pâtissier – Brasserie 65 Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1200&q=80&auto=format&fit=crop",
+                "alt": "Ambiance conviviale – Brasserie 65 Rooftop Nice",
+                "variant": "wide"
+            }
+        ],
+        "reviews": [
+            {
+                "author": "Marie-Claire B.",
+                "date": "Mars 2026",
+                "rating": 5,
+                "comment": "Une excellente adresse dans l'est niçois ! Les plats sont généreux, savoureux et vraiment faits maison. L'équipe est accueillante et le cadre rooftop est vraiment agréable. On reviendra sans hésiter."
+            },
+            {
+                "author": "Thomas K.",
+                "date": "Février 2026",
+                "rating": 5,
+                "comment": "Trouvé par hasard près de l'hôpital Pasteur, et quelle belle surprise ! Vue sur les collines, service souriant, et le tartare de bœuf était parfait. Un rapport qualité-prix remarquable pour Nice."
+            },
+            {
+                "author": "Isabelle R.",
+                "date": "Janvier 2026",
+                "rating": 5,
+                "comment": "Nous avons privatisé la salle pour un anniversaire et tout était parfait. La cuisine est digne d'un bon restaurant gastronomique, l'ambiance était chaleureuse et l'équipe s'est surpassée."
+            }
+        ]
+    },
+    "en": {
+        "meta_title": "Brasserie 65 Rooftop — French Brasserie in Nice",
+        "meta_description": "Brasserie 65 Rooftop in Nice – Generous homemade cooking, panoramic terrace, daily specials. 65 Voie Romaine, 06000 Nice. Tel. +33 4 93 27 10 46.",
+        "strip_open_label": "Open",
+        "strip_open_value": "Mon – Fri",
+        "strip_service_label": "Service",
+        "strip_service_value": "Lunch only",
+        "strip_book_label": "Reservation",
+        "strip_book_value": "Recommended",
+        "strip_price_label": "Average price",
+        "strip_price_value": "€15",
+        "arguments": [
+            {
+                "icon": "chef-hat",
+                "title": "100% homemade",
+                "description": "Daily specials, chef's suggestions and pastry chef desserts — all prepared from scratch on the premises every day."
+            },
+            {
+                "icon": "sun",
+                "title": "Panoramic rooftop terrace",
+                "description": "Enjoy lunch at height with open views over the Nice hills. The heated and ventilated terrace welcomes every season."
+            },
+            {
+                "icon": "users",
+                "title": "Groups & private events",
+                "description": "The brasserie can be fully privatised on evenings and weekends for celebrations, team lunches and receptions. Families and children very welcome."
+            }
+        ],
+        "menu_preview_starters": [
+            { "name": "Truffle Camembert", "price": "€13" },
+            { "name": "Salade 65 (Chicken, Egg, Caesar Dressing)", "price": "€14" },
+            { "name": "Beef Carpaccio, Mushroom & Parmesan", "price": "€14" }
+        ],
+        "menu_preview_mains": [
+            { "name": "Classic Beef Tartare 180g", "price": "€13" },
+            { "name": "Cod Fillet, Leek Fondue & Comté Fagottini", "price": "€16" },
+            { "name": "Bavette Steak, Bordeaux Sauce", "price": "€17" }
+        ],
+        "menu_preview_desserts": [
+            { "name": "Crème Brûlée Tart", "price": "€5" },
+            { "name": "Homemade Tiramisu", "price": "€5" },
+            { "name": "Chocolate Mousse", "price": "€5" }
+        ],
+        "menu_preview_formulas": [],
+        "gallery_images": [
+            {
+                "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80&auto=format&fit=crop",
+                "alt": "Dining room – Brasserie 65 Rooftop Nice",
+                "variant": "wide"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80&auto=format&fit=crop",
+                "alt": "Chef's dish – Brasserie 65 Rooftop Nice",
+                "variant": "tall"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&q=80&auto=format&fit=crop",
+                "alt": "Table detail – Brasserie 65 Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80&auto=format&fit=crop",
+                "alt": "Drinks selection – Brasserie 65 Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80&auto=format&fit=crop",
+                "alt": "In the kitchen – Brasserie 65 Rooftop",
+                "variant": "tall"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop",
+                "alt": "Panoramic rooftop terrace – Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80&auto=format&fit=crop",
+                "alt": "Pastry chef dessert – Brasserie 65 Nice",
+                "variant": "normal"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1200&q=80&auto=format&fit=crop",
+                "alt": "Convivial atmosphere – Brasserie 65 Rooftop Nice",
+                "variant": "wide"
+            }
+        ],
+        "reviews": [
+            {
+                "author": "Marie-Claire B.",
+                "date": "March 2026",
+                "rating": 5,
+                "comment": "A gem in eastern Nice! Generous, tasty, genuinely homemade dishes. The team is welcoming and the rooftop setting is really lovely. We'll definitely be back."
+            },
+            {
+                "author": "Thomas K.",
+                "date": "February 2026",
+                "rating": 5,
+                "comment": "Stumbled upon this place near Pasteur hospital — what a find! Views over the hills, friendly service, and the steak tartare was spot on. Outstanding value for Nice."
+            },
+            {
+                "author": "Isabelle R.",
+                "date": "January 2026",
+                "rating": 5,
+                "comment": "We hired the whole venue for a birthday dinner and everything was flawless. The cooking rivalled a proper gastro restaurant, the atmosphere was warm, and the team went above and beyond."
+            }
+        ]
+    }
 }

@@ -1,50 +1,45 @@
 {
-  "phone": "+33 1 42 00 00 00",
-  "email": "contact@lejardin.fr",
-  "street_address": "12 rue des Abbesses",
-  "city": "Paris",
-  "postal_code": "75018",
-  "country": "FR",
-  "maps_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.2556203945455!2d7.003451999999999!3d43.601219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cc298bd7316761%3A0xcfa566eef76b8c61!2sL&#39;Asia%20Mougins!5e0!3m2!1sfr!2sfr!4v1776434366494!5m2!1sfr!2sfr",
-  "logo": "",
-  "og_image": "",
-  "twitter_handle": "",
-  "instagram_url": "https://instagram.com",
-  "facebook_url": "https://facebook.com",
-  "youtube_url": "",
-  "hero_image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600&q=80&auto=format&fit=crop",
-  "about_image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=700&q=80&auto=format&fit=crop",
-  "hours": [
-    {
-      "days": "Mardi – Vendredi",
-      "lunch": "12h00 – 14h30",
-      "dinner": "19h30 – 22h00"
+    "phone": "+33 4 93 27 10 46",
+    "email": "brasserie65nice@gmail.com",
+    "street_address": "65 Voie Romaine",
+    "city": "Nice",
+    "postal_code": "06000",
+    "country": "FR",
+    "maps_url": "https://www.google.com/maps/place/BRASSERIE+65+rooftop/@43.7228522,7.2810268,17z/data=!3m1!4b1!4m6!3m5!1s0x12cdc545e8546be1:0xceff1a7e6b3e21c7!8m2!3d43.7228522!4d7.2810268!16s%2Fg%2F11c1v4_zfq?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D",
+    "logo": "",
+    "og_image": "",
+    "twitter_handle": "",
+    "instagram_url": "",
+    "facebook_url": "",
+    "youtube_url": "",
+    "hero_image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600&q=80&auto=format&fit=crop",
+    "about_image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=700&q=80&auto=format&fit=crop",
+    "hours": [
+        { "days": "Lundi – Vendredi", "lunch": "12h00 – 14h00", "dinner": "" },
+        { "days": "Samedi – Dimanche", "lunch": "Fermé", "dinner": "" }
+    ],
+    "fr": {
+        "site_name": "Brasserie 65 Rooftop",
+        "tagline": "Cuisine maison en hauteur, sur les toits de Nice",
+        "restaurant_type": "Brasserie française & méditerranéenne – Rooftop",
+        "meta_description": "Brasserie 65 Rooftop à Nice – Cuisine maison généreuse, terrasse panoramique, plats du jour. 65 Voie Romaine, 06000 Nice. Tél. 04 93 27 10 46.",
+        "hero_title": "La brasserie du rooftop niçois",
+        "hero_subtitle": "Cuisine maison · Terrasse panoramique · Rapport qualité-prix",
+        "hero_cta": "Nous appeler",
+        "about_tagline": "Un déjeuner généreux avec vue sur Nice",
+        "about_description": "La Brasserie 65 Rooftop occupe le dernier étage du 65 Voie Romaine, à deux pas de l'hôpital Pasteur, dans le quartier Est de Nice. La maison propose une cuisine entièrement faite sur place — plats du jour, suggestions du chef pâtissier — dans un cadre moderne et convivial. L'équipe accueille familles, groupes et événements privés avec le sourire, du lundi au vendredi à l'heure du déjeuner.",
+        "menu_file": "/uploads/menu_brasserie_65_rooftop_demo.pdf"
     },
-    { "days": "Samedi", "lunch": "", "dinner": "19h30 – 22h30" },
-    { "days": "Dimanche – Lundi", "lunch": "Fermé", "dinner": "Fermé" }
-  ],
-  "fr": {
-    "site_name": "Le Resto Laura",
-    "tagline": "Cuisine du marché · Paris",
-    "restaurant_type": "Cuisine française de saison",
-    "meta_description": "Restaurant gastronomique à Paris. Cuisine française de saison, produits locaux, cave à vins sélectionnée.",
-    "hero_title": "Une cuisine sincère, ancrée dans le terroir",
-    "hero_subtitle": "Produits de saison · Cuisine française · Paris 18e",
-    "hero_cta": "Réserver une table",
-    "about_tagline": "Une cuisine sincère, ancrée dans le terroir parisien depuis 2019.",
-    "about_description": "Né d'une passion pour les produits locaux et les saisons, Le Jardin est une table intimiste où chaque assiette raconte une histoire. Notre équipe met tout son soin à vous offrir un moment de partage authentique, du marché jusqu'à votre table.",
-    "menu_file": "/uploads/menu_mediterranea_mina_demo.pdf"
-  },
-  "en": {
-    "site_name": "Le Resto Laura",
-    "tagline": "Market cuisine · Paris",
-    "restaurant_type": "Seasonal French cuisine",
-    "meta_description": "Fine dining restaurant in Paris. Seasonal French cuisine, local produce, curated wine cellar.",
-    "hero_title": "Honest cooking, rooted in the terroir",
-    "hero_subtitle": "Seasonal produce · French cuisine · Paris 18th",
-    "hero_cta": "Book a table",
-    "about_tagline": "Honest, seasonal cooking rooted in Parisian terroir since 2019.",
-    "about_description": "Born from a passion for local produce and seasonal rhythms, Le Jardin is an intimate table where every dish tells a story. Our team takes great care to offer you an authentic moment of sharing, from the market to your plate.",
-    "menu_file": ""
-  }
+    "en": {
+        "site_name": "Brasserie 65 Rooftop",
+        "tagline": "Homemade French cuisine on the rooftop of Nice",
+        "restaurant_type": "French & Mediterranean Brasserie – Rooftop",
+        "meta_description": "Brasserie 65 Rooftop in Nice – Generous homemade cooking, panoramic terrace, daily specials. 65 Voie Romaine, 06000 Nice. Tel. +33 4 93 27 10 46.",
+        "hero_title": "Nice's rooftop brasserie",
+        "hero_subtitle": "Homemade cuisine · Panoramic terrace · Great value",
+        "hero_cta": "Call us",
+        "about_tagline": "A generous lunch with a view over Nice",
+        "about_description": "Brasserie 65 Rooftop sits on the top floor of 65 Voie Romaine, a short walk from Pasteur hospital in eastern Nice. The restaurant serves fully homemade dishes — daily specials and pastry chef creations — in a modern, convivial setting. The team welcomes families, groups and private events Monday to Friday at lunchtime.",
+        "menu_file": ""
+    }
 }
